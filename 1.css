@@ -68,3 +68,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+html{
+  scroll-behavior: smooth;
+}
