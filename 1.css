@@ -1,0 +1,56 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    background:grey;
+    width: 100%;
+  }
+}
+
+
+.navbar {
+  overflow:visible;
+  background-color:black;
+  opacity: 100%;
+  width:min-content;
+  height: min-content;
+}
+
+.navbar a {
+  position:static;
+  float:left;
+  font-size: 19;
+  color:white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration:none;
+  text-shadow: 10px 5px 5px black;
+
+}
+
+
+.navbar a:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow:10px 5px 5px black;
+}
+
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
