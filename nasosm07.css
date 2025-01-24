@@ -97,7 +97,7 @@ color: white;
 border: 1px white solid;
 border-radius: 5px;
 margin-top: 25px;
-opacity: 0.7;
+opacity: 0.7;  
 
 }
 
@@ -134,7 +134,7 @@ opacity: 0.7;
 }
 
 .navbar a{
-  color: white ;
+  color: rgb(255, 0, 0) ;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
